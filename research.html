@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Arjun — Research</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="site-header__inner">
+      <p class="site-title"><a href="index.html">Arjun</a></p>
+      <nav class="nav" aria-label="Main">
+        <a href="index.html">Home</a>
+        <a href="research.html" aria-current="page">Research</a>
+        <a href="writing.html">Writing</a>
+        <a href="projects.html">Personal Projects</a>
+        <a href="cv.html">CV</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <h1>Research</h1>
+    <p class="lead">
+      My Research Projects in Mathematical Modelling and ML
+    </p>
+
+    <!-- Each entry = short blurb + a link to the published version,
+         or an "under review" status pill where no link exists yet. -->
+
+    <ul class="entry-list">
+
+      <li class="entry">
+        <h2 class="entry__title">Induction Head Ablation and Repetition Dynamics in Large Language Models</h2>
+        <p class="entry__meta">alphaXiv</p>
+        <p class="entry__summary">
+          This study examines how ablating induction heads — the attention mechanisms behind in-context learning — affects text generation in transformer models. It finds that removing these heads increases repetition in GPT-2 and uncovers a non-linear relationship between the number of ablated heads and the resulting repetition, pointing to the role induction heads play in preventing model failure.
+        </p>
+        <div class="entry__actions">
+          <a class="btn" href="https://www.alphaxiv.org/abs/2607.induction-head-ablation-repetition-dynamics" target="_blank" rel="noopener noreferrer">Read here</a>
+        </div>
+      </li>
+
+      <li class="entry">
+        <h2 class="entry__title">Early Phototherapy Prediction for Neonatal Hyperbilirubinemia</h2>
+        <p class="entry__summary">
+          This project develops machine and deep learning models to predict the need for neonatal phototherapy using clinical and demographic data from Indian cohorts. By combining interpretability techniques with high-performing models like Random Forest and TabNet, the work identifies both established and novel biomarkers, including cord TSH, for early intervention. The system is designed as a scalable clinical decision-support tool for resource-constrained healthcare settings.
+        </p>
+        <div class="entry__actions">
+          <span class="entry__status">Manuscript is currently under review.</span>
+        </div>
+      </li>
+
+      <li class="entry">
+        <h2 class="entry__title">Raman Spectroscopy and Machine Learning for Bacterial Detection in Milk</h2>
+        <p class="entry__meta">Research Science Initiative (RSI India) · Indian Institute of Science (IISc)</p>
+        <p class="entry__summary">
+          This project develops a rapid, interpretable pipeline for detecting <em>S. aureus</em> in milk using Raman spectroscopy and machine learning. Combining PCA with SHAP-based interpretability, the system achieves strong predictive performance on small datasets while remaining clinically explainable. Designed for real-world deployment, the approach offers a fast, low-cost alternative for quality control in dairy systems.
+        </p>
+        <div class="entry__actions">
+          <a class="btn" href="https://github.com/arjun041008/RamanSpectroscopy/blob/main/RSI_Paper/Rao.Arjun.final.pdf" target="_blank" rel="noopener noreferrer">Read here</a>
+        </div>
+      </li>
+
+      <li class="entry">
+        <h2 class="entry__title">Interpretable Modeling of Rabies Virus Host Specificity</h2>
+        <p class="entry__summary">
+          This study develops machine and deep learning models to predict host species from Rabies lyssavirus glycoprotein sequences. Emphasizing interpretability, the work identifies biologically meaningful residue regions linked to host specificity while achieving high predictive accuracy. By bridging protein modeling and machine learning, the project contributes toward improved understanding of viral evolution and has potential applications in vaccine design and disease containment.
+        </p>
+        <div class="entry__actions">
+          <a class="btn" href="https://europepmc.org/article/ppr/ppr1162002" target="_blank" rel="noopener noreferrer">Read here</a>
+        </div>
+      </li>
+
+      <li class="entry">
+        <h2 class="entry__title">Fourier-Based Indicator for Financial Market Cycles</h2>
+        <p class="entry__summary">
+          This project introduces a novel financial indicator using the Fourier Transform to extract cyclical patterns from asset prices and predict market trends. By transforming price data into the frequency domain and filtering noise, the model isolates meaningful signals for trading decisions. Backtesting demonstrates strong performance, outperforming traditional indicators with a Sharpe ratio of 3.6, highlighting the potential of signal processing techniques in financial analysis.
+        </p>
+        <div class="entry__actions">
+          <a class="btn" href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6157848" target="_blank" rel="noopener noreferrer">Read here</a>
+        </div>
+      </li>
+
+      <li class="entry">
+        <h2 class="entry__title">Climate Refugees and the Future of Asylum Policy</h2>
+        <p class="entry__meta">Published in the International Journal of Applied Public Policy</p>
+        <p class="entry__summary">
+          This paper examines gaps in existing asylum frameworks for climate-displaced populations. It proposes a phased global policy model combining legal reform with quantitative migration forecasting using socio-economic and climate risk indicators. By integrating legal analysis with data-driven modeling, the work offers a structured approach to managing large-scale climate migration.
+        </p>
+        <div class="entry__actions">
+          <a class="btn" href="https://www.ijapp.org/index.php/pub/article/view/5/2" target="_blank" rel="noopener noreferrer">Read here</a>
+        </div>
+      </li>
+
+    </ul>
+  </main>
+
+  <footer class="site-footer">
+    <p>© 2026 Arjun Rao</p>
+  </footer>
+</body>
+</html>
